@@ -55,6 +55,8 @@ tmux send-keys -t "$SESSION_NAME:0.0" \
 # tmux send-keys -t "$SESSION_NAME:0.3" \
 #   'echo "Ready for local commands"' Enter
 
+
+
 # ============================================================
 # Attach to the session
 # ============================================================

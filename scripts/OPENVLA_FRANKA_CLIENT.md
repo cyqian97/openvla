@@ -98,6 +98,8 @@ python scripts/openvla_franka_client.py \
 | `--no_reset` | `False` | Skip homing the robot on startup |
 | `--reset_speed` | `0.2` | Joint move speed factor [0..1] for the homing move |
 | `--camera_resolution` | `HD720` | ZED resolution: `HD2K`, `HD1080`, `HD720`, `VGA` |
+| `--crop` | `None` (center-square) | Crop region `X Y W H` in pixels. If not set, center-crops to a square to avoid 16:9→1:1 distortion |
+| `--save_video` | `None` | Save camera feed to a video file (e.g. `output.mp4`). If not set, no video is saved |
 | `--action_scale` | `1.0` | Multiplier applied to the 6-DoF EEF delta |
 | `--gripper_threshold` | `0.5` | Gripper action value above which the gripper closes (below negative threshold it opens) |
 
